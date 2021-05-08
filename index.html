@@ -9,24 +9,27 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/8ae1d03c10.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="index.js"></script>
-
 </head>
 
-<body>
-    <div class="container">
+<body class="bg-image">
+    <div class="container back">
         <div class="row row-cols-2 g-2 g-lg-3">
             <!-- Esta es la primera columna del curriculum-->
-            <div class="col-4 align-items-stretch">
+            <div class="col-4 ">
                 <!-- Contenedor para foto -->
-                <div class="card text-white bg-dark text-center h-25 my-auto">
+                <div class="card text-white bg-dark h-25 my-auto text-center">
                     <div class="container">
-                        <div onclick="irAPerfil()">
-                            <img src="assets/Foto de perfil.jpg" class="mx-auto d-block circulo" alt="..." />
-                        </div>    
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title ">JOSE CARLOS JIMENEZ</h5>
-                        <p class="card-text">Ingeniero en sistemas</p>
+                        <div class="container">
+                            <div onclick="irAPerfil()">
+                                <img src="assets/Foto de perfil.jpg" class="w-50 circulo" alt="..." />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="container">
+                                <h5 class="card-title ">JOSE CARLOS JIMENEZ</h5>
+                                <p class="card-text">Ingeniero en sistemas</p>    
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Contenedor para contacto-->
@@ -44,7 +47,7 @@
                         </div>
                         <div>
                             <i class="fab fa-github"></i> Jose-Carlos-Jimenez
-                        </div>   
+                        </div>
                     </div>
                 </div>
                 <!-- Contenedor para habilidades -->
@@ -56,26 +59,26 @@
                                 <li>
                                     <h6>Javascript</h6>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                                     </div>
                                 </li>
                                 <li>
                                     <h6>HTML</h6>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
-                                            aria-valuemin="0" aria-valuemax="100">85%</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"
+                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                                     </div>
                                 </li>
                                 <li>
                                     <h6>CSS</h6>
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
-                                            aria-valuemin="0" aria-valuemax="100"> 60%</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"> 60%</div>
                                     </div>
                                 </li>
                             </ul>
-                        </div>    
+                        </div>
                     </div>
                 </div>
                 <!-- Contenedor para Hobbies-->
@@ -87,19 +90,17 @@
                             <i class="fas fa-futbol fa-3x"></i>
                             <i class="fas fa-plane fa-3x"></i>
                         </div>
-    
+
                     </div>
                 </div>
             </div>
             <!-- Esta es la segunda columna del cv-->
             <div class="col-8">
-                <div class="container">
                     <h2>Perfil</h2>
                     <p>
                         Soy un apasionado estudiante de ingenieria en ciencias y sistemas, enfocado
                         en aprender nuevos temas y trabajar de manera super profesional.
                     </p>
-                </div>
                 <hr />
                 <div>
                     <h2>Educación</h2>
@@ -156,72 +157,107 @@
                 <hr />
                 <div class="container">
                     <h2>Referencias</h2>
-                    <div class="card contact text-white bg-dark">
-                        <div class="card-title">
-                            <h5>Jorge Daniel Juarez</h5>
-                        </div>
-                        <div class="card-body">
-                            <h6>Contacto:</h6> 
-                            <div>
-                                <i class="far fa-envelope"></i> jorgejuarezdal@gmail.com
+                    <div class="container">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card contact text-white bg-dark">
+                                        <div class="card-title">
+                                            <div class="container">
+                                                <h5>
+                                                    <i class="fas fa-user-circle fa-3x"></i> Fernando Josue Tello
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6>Contacto:</h6>
+                                            <div>
+                                                <i class="far fa-envelope"></i> ferjo.tello@gmail.com
+                                            </div>
+                                            <div>
+                                                <i class="fas fa-phone"></i> 3037-9885
+                                            </div>
+                                            <div>
+                                                <i class="fab fa-instagram"></i> @ferjotello
+                                            </div>
+                                            <div>
+                                                <i class="fab fa-github"></i> FerJoTello
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card contact text-white bg-dark">
+                                        <div class="card-title">
+                                            <div class="container">
+                                                <h5>
+                                                    <i class="fas fa-user-circle fa-3x"></i> Jorge Daniel Juarez
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6>Contacto:</h6>
+                                            <div>
+                                                <i class="far fa-envelope"></i> jorgejuarezdal@gmail.com
+                                            </div>
+                                            <div>
+                                                <i class="fas fa-phone"></i> 3693-3820
+                                            </div>
+                                            <div>
+                                                <i class="fab fa-instagram"></i> @__jorgejuarez__
+                                            </div>
+                                            <div>
+                                                <i class="fab fa-github"></i> joorgej
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card contact text-white bg-dark">
+                                        <div class="card-title">
+                                            <div class="container">
+                                                <h5>
+                                                    <i class="fas fa-user-circle fa-3x"></i> Sergio Fernando Martinez
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6>Contacto:</h6>
+                                            <div>
+                                                <i class="far fa-envelope"></i> sergioling123@gmail.com
+                                            </div>
+                                            <div>
+                                                <i class="fas fa-phone"></i> 5495-0392
+                                            </div>
+                                            <div>
+                                                <i class="fab fa-instagram"></i> @sergio__fernando
+                                            </div>
+                                            <div>
+                                                <i class="fab fa-github"></i> chejo201801442
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <i class="fas fa-phone"></i> 3693-3820
-                            </div>
-                            <div>
-                                <i class="fab fa-instagram"></i> @__jorgejuarez__
-                            </div>
-                            <div>
-                                <i class="fab fa-github"></i> joorgej
-                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
-                    <hr/>
-                    <div class="card contact text-white bg-dark">
-                        <div class="card-title">
-                            <h5>Fernando Josue Tello</h5>
-                        </div>
-                        <div class="card-body">
-                            <h6>Contacto:</h6> 
-                            <div>
-                                <i class="far fa-envelope"></i> ferjo.tello@gmail.com 
-                            </div>
-                            <div>
-                                <i class="fas fa-phone"></i> 3037-9885
-                            </div>
-                            <div>
-                                <i class="fab fa-instagram"></i> @ferjotello
-                            </div>
-                            <div>
-                                <i class="fab fa-github"></i> FerJoTello
-                            </div>
-                        </div>
-                    </div>
-                    <hr/>
-                    <div class="card contact text-white bg-dark">
-                        <div class="card-title">
-                            <h5>Sergio Fernando Martinez</h5>
-                        </div>
-                        <div class="card-body">
-                            <h6>Contacto:</h6> 
-                            <div>
-                                <i class="far fa-envelope"></i> sergioling123@gmail.com
-                            </div>
-                            <div>
-                                <i class="fas fa-phone"></i> 5495-0392
-                            </div>
-                            <div>
-                                <i class="fab fa-instagram"></i> @sergio__fernando
-                            </div>
-                            <div>
-                                <i class="fab fa-github"></i> chejo201801442
-                            </div>
-                        </div>
-                    </div>
-                    <hr/>
+                    <hr />
                 </div>
             </div>
         </div>
-        <hr/>
+        <hr />
+        <hr />
     </div>
 </body>

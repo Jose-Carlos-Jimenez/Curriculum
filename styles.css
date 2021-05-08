@@ -1,9 +1,3 @@
-img {
-    max-height: 200px;
-    max-width: 200px;
-    margin-top: 20px;
-}
-
 .circulo {
     border-radius: 50%;
 }
@@ -18,7 +12,7 @@ img {
 
 body {
     background-image: url("./assets/bg.svg");
-    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .contact {
